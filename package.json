@@ -1,0 +1,32 @@
+{
+  "name": "arc-automator",
+  "version": "1.0.0",
+  "description": "A tool that automates working with arcanist",
+  "bin": {
+    "arc-stack-patch": "./run.sh"
+  },
+  "scripts": {
+    "automator_help": "node_modules/arc-automator/tools/help/help.sh",
+    "patch-diff-stack": "node_modules/arc-automator/tools/patch_diff_stack/patch_diff_stack.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karol-bisztyga/arc-automator.git"
+  },
+  "keywords": [
+    "arc",
+    "phabricator",
+    "arcanist",
+    "diffs",
+    "stack"
+  ],
+  "contributors": [
+    "Karol Bisztyga <karol.bisztyga@swmansion.com> (https://github.com/karol-bisztyga)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karol-bisztyga/arc-automator/issues"
+  },
+  "homepage": "https://github.com/karol-bisztyga/arc-automator"
+}
