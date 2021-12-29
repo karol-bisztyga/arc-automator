@@ -1,9 +1,9 @@
 {
   "name": "arc-automator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool that automates working with arcanist",
   "bin": {
-    "arc-automator": "node run.js"
+    "arc-automator": "./run.js"
   },
   "scripts": {
     "automator_help": "node run.js help",
